@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+  color: white;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+nav{
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+#hero{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+}
+
+h3{
+    color: black;
+    padding: 30px 30px;
+    border: 2px solid white;
+    background-color: azure;
+    border-radius: 50%;
+    box-shadow: 5px 5px rgba(245, 245, 245, 0.482) ;
+    scale: 1;
+}
